@@ -8,11 +8,22 @@
 body{
     background: url('../images/background.jpg') repeat center center/cover;
 }
+
+
+
+
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #000;
+}
 .topbar{
     margin-top: 2rem;
 /* background: rgb(132, 162, 219); */
 padding-top: 1rem;
 padding-bottom: 1rem;
+
 }
 
 
@@ -30,6 +41,63 @@ small{
 font-size: 2.6rem;
 
 }
+.close_btn{
+    background-color: #fff;
+    border: 3px solid #999;
+    border-radius: 50px;
+    cursor: pointer;
+    display: inline-block;
+ 
+    font-weight: bold;
+    position: absolute;
+    top: -20px;
+   right: -20px;
+    font-size: 30px;
+    line-height: 30px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    padding-top: 5px;
+    
+}
+.close_btn:hover{
+    background-color: #ccc;
+}
+
+
+.login_form,.register_form{
+    background: #fff;
+    display: none;
+    position: absolute;
+    
+    top: 5%;
+    left: 25%;
+    width: 50%;
+    z-index: 2;
+    box-shadow: 10px 10px 60px #000;
+    border-radius: 8px;
+}
+
+.product_detail{
+    background: #fff;
+display: none;
+position: relative;
+
+left: 25%;    
+width: 900px;
+
+
+
+box-shadow: 10px 10px 60px #000;
+border-radius: 8px;
+}
+
+
+
+
+
+
+
 
 .btn_2{
     width: 40%;
@@ -110,10 +178,10 @@ text-align: left;
     width: 100%;
     /* object-fit: contain; */
     height: auto;
-    opacity: 1;
+    /* opacity: 1; */
     display: block;
-    transition: .5s ease;
-    backface-visibility: hidden;
+    /* transition: .5s ease; */
+    /* backface-visibility: hidden; */
 
 }
 
@@ -129,10 +197,10 @@ text-align: left;
 
     
 }
-.product-image:hover img{
-    opacity: 0.3;
-}
-
+/* .product-image:hover img{ */
+    /* opacity: 0.3; */
+/* } */
+/*  */
 .product-image:hover .div-hide{
    opacity: 1;
 }
@@ -189,4 +257,23 @@ font-size:1rem ;
 .footer li{
     line-height: 1.9rem;
     list-style-type: none;
+}
+.error {
+    background: rgb(192, 126, 103);
+    color: #fff;
+    padding: 0 5px;
+    margin: 5px;
+    border-radius: 4px;
+  } 
+  
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  filter: invert(1);
+}
+
+select{
+    text-decoration: none;
+    display: block;
+    
 }
