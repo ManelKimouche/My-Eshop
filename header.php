@@ -1,11 +1,11 @@
 <header class="topbar bg-transparent">
     <div class="container-fluid my-2 ">
-        <div class="row ">
-            <div class="col-3 d-lg-inline  d-none mx-2 logo">
+        <div class="row align-items-center">
+            <div class="col-3  d-none d-lg-block ">
                 <h5 href="index.html">My Eshop.</h5>
                 <small>It's never been so easy </small>
             </div>
-            <div class="col-5 offset-1 d-lg-inline  d-none py-2">
+            <div class="col-5  d-none d-lg-block ">
                 <div class="input-group ">
                     <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Setect Category <span class="caret"></span></button>
                     <ul class="dropdown-menu">
@@ -14,41 +14,31 @@
                         <li><a class="dropdown-item" href="#"><i class="fas fa-car"></i> Vehicules</a></li>
                         <li><a class="dropdown-item" href="#"><i class="fas fa-home"></i> Home Deco </a></li>
                     </ul>
-                    <input type="text" class="form-control btn-outline-secondary" placeholder="Search Article Here..." aria-describedby="button-addon2">
+                    <input type="text" class="form-control " placeholder="Search Article Here..." aria-describedby="button-addon2">
                     <button class="btn btn-outline-secondary" type="button" id="button-addon2"><i class="fa fa-search" aria-hidden="true"></i></button>
                 </div>
             </div>
-
-
-            <div class="col py-2 d-lg-inline ">
-
-
-
-
-
-                <!-- Button trigger modal for Login-->
-                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ModalLogin">
-                    <i title="Login" class="fa fa-sign-in-alt "></i> Login
-                </button>
-
-                <?php
-                include('login.php');
-
-                ?>
-
-
-
-
-
-                <!-- Button trigger modal for Register-->
-                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ModalRegister">
-                    <i title="Register" class="fa fa-user-alt "></i> Register
-                </button>
-
-                <?php
-                include('register.php');
-
-                ?>
+            <div class="col-4  d-none d-lg-block ">
+                <div class="d-flex flex-row-reverse bd-highlight">
+                    <div class="p-2 bd-highlight">
+                        <!-- Button trigger modal for Login-->
+                        <button type="button" class="btn btn-light  " data-bs-toggle="modal" data-bs-target="#ModalLogin">
+                            <i title="Login" class="fa fa-sign-in-alt "></i> Login
+                        </button>
+                        <?php
+                        include('login.php');
+                        ?>
+                    </div>
+                    <div class="p-2 bd-highlight">
+                        <!-- Button trigger modal for Register-->
+                        <button type="button" class="btn btn-light " data-bs-toggle="modal" data-bs-target="#ModalRegister">
+                            <i title="Register" class="fa fa-user-alt "></i> Register
+                        </button>
+                        <?php
+                        include('register.php');
+                        ?>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -91,6 +81,12 @@
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Contact Us</a>
+                            </li>
+                            <li class="nav-item d-lg-none d-block">
+                                <a class="nav-link">Login</a>
+                            </li>
+                            <li class="nav-item d-lg-none d-block">
+                                <a class="nav-link">Register</a>
                             </li>
                         </ul>
                     </div>

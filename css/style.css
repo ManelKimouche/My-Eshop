@@ -1,18 +1,6 @@
-
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding:0;
-}
-
 body{
     background: url('../images/background.jpg') repeat center center/cover;
 }
-
-
-
-
-
 a{
     text-decoration: none;
     cursor: pointer;
@@ -65,33 +53,33 @@ font-size: 2.6rem;
 }
 
 
-.login_form,.register_form{
-    background: #fff;
-    display: none;
-    position: absolute;
-    
-    top: 5%;
-    left: 25%;
-    width: 50%;
-    z-index: 2;
-    box-shadow: 10px 10px 60px #000;
-    border-radius: 8px;
-}
+/* .login_form,.register_form{ */
+    /* background: #fff; */
+    /* display: none; */
+    /* position: absolute; */
+/*      */
+    /* top: 5%; */
+    /* left: 25%; */
+    /* width: 50%; */
+    /* z-index: 2; */
+    /* box-shadow: 10px 10px 60px #000; */
+    /* border-radius: 8px; */
+/* } */
+/*  */
+/* .product_detail{ */
+    /* background: #fff; */
+/* display: none; */
+/* position: relative; */
+/*  */
+/* left: 25%;     */
+/* width: 900px; */
+/*  */
 
-.product_detail{
-    background: #fff;
-display: none;
-position: relative;
-
-left: 25%;    
-width: 900px;
-
-
-
-box-shadow: 10px 10px 60px #000;
-border-radius: 8px;
-}
-
+/*  */
+/* box-shadow: 10px 10px 60px #000; */
+/* border-radius: 8px; */
+/* } */
+/*  */
 
 
 

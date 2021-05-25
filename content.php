@@ -27,6 +27,9 @@
     </div>
 </section>
 <section class="tab-content my-5 py-3 bg-secondary mx-5 d-75">
+    <?php
+    include('product_details.php');
+    ?>
     <div class="container  ">
         <!-- Tab Content 1 -->
         <div id="tab-1-content" class="tab-content-item show">
@@ -51,9 +54,9 @@
                                     More details
                                 </button>
 
-                                <?php
-                                include('product_men.php');
-                                ?>
+
+
+
                             </div>
                         </div>
                     </div>
@@ -75,9 +78,9 @@
                                 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ModalDetails">
                                     More details
                                 </button>
-                                <?php
-                                include('product_men.php');
-                                ?>
+
+
+
                             </div>
                         </div>
                     </div>
@@ -101,9 +104,9 @@
                                     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ModalDetails">
                                         More details
                                     </button>
-                                    <?php
-                                    include('product_men.php');
-                                    ?>
+
+
+
                                 </div>
                             </div>
                         </div>
@@ -132,9 +135,9 @@
                                 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ModalDetails_2">
                                     More details
                                 </button>
-                                <?php
-                                include('product_woman.php');
-                                ?>
+
+
+
                             </div>
                         </div>
                     </div>
@@ -156,9 +159,9 @@
                                 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ModalDetails_2">
                                     More details
                                 </button>
-                                <?php
-                                include('product_woman.php');
-                                ?>
+
+
+
                             </div>
                         </div>
                     </div>
@@ -186,9 +189,9 @@
                                 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ModalDetails_2">
                                     More details
                                 </button>
-                                <?php
-                                include('product_woman.php');
-                                ?>
+
+
+
                             </div>
                         </div>
                     </div>

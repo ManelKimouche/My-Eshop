@@ -1,8 +1,5 @@
 <?php
 require('connection.php');
-
-
-
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -31,18 +28,22 @@ require('connection.php');
 <body>
     <?php
     include('header.php');
-    ?>
 
-    <?php
+
+
+
+
+
+
     include('caroussel.php');
-    ?>
 
-    <?php
+
+
     include('content.php');
-    ?>
 
 
-    <?php
+
+
     include('footer.php');
     ?>
 
